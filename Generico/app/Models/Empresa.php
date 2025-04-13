@@ -13,8 +13,7 @@ class Empresa extends Model
         'rfc_empresa',
         'direccion_empresa',
         'telefono_empresa',
-        'fecha_registro',
-        'limite_vigencia',
+        'id_vigencia',
         'estatus_empresa'
     ];
 }

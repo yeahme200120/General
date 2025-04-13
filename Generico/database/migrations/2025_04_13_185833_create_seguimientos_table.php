@@ -11,11 +11,12 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('rol_empresas', function (Blueprint $table) {
+        Schema::create('seguimientos', function (Blueprint $table) {
             $table->id();
-            $table->integer("rol");
-            $table->integer("id_empresa");
-            $table->integer("estatus");
+            $table->String("accion");
+            $table->dateTime("fecha");
+            $table->text("datos");
+            $table->integer("id_usuario");
             $table->timestamps();
         });
     }
@@ -25,6 +26,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('rol_empresas');
+        Schema::dropIfExists('seguimientos');
     }
 };

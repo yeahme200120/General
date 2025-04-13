@@ -24,7 +24,9 @@ class User extends Authenticatable
         'id_empresa',
         'id_estatus',
         'id_rol',
-        'is_admin'
+        'is_admin',
+        'telefono',
+        'direccion'
     ];
 
     /**

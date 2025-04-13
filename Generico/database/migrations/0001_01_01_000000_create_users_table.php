@@ -21,6 +21,8 @@ return new class extends Migration
             $table->integer("id_estatus");
             $table->integer("id_rol");
             $table->boolean("is_admin")->default(false);
+            $table->string("telefono");
+            $table->string("direccion");
             $table->rememberToken();
             $table->timestamps();
         });

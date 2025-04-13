@@ -19,8 +19,7 @@ return new class extends Migration
             $table->string("rfc_empresa");
             $table->string("direccion_empresa");
             $table->string("telefono_empresa");
-            $table->date("fecha_registro");
-            $table->date("limite_vigencia");
+            $table->integer("id_vigencia");
             $table->integer("estatus_empresa");
             $table->timestamps();
         });

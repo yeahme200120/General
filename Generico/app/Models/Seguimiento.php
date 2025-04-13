@@ -4,11 +4,12 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class RolEmpresa extends Model
+class Seguimiento extends Model
 {
     protected $fillable = [
-        'rol',
-        'id_Empresa',
-        'estatus'
+        'accion',
+        'fecha',
+        'datos',
+        'id_usuario'
     ];
 }
