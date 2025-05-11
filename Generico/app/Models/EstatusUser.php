@@ -4,14 +4,11 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Vigencia extends Model
+class EstatusUser extends Model
 {
     protected $fillable = [
-        'tipo_vigencia',    
+        'nombre_estatus',
         'id_empresa',
-        'duracion_dias',
-        "registrado_por",
-        "fin_vigencia",
         'estatus'
     ];
 }

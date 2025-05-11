@@ -17,6 +17,7 @@ return new class extends Migration
             $table->dateTime("fecha");
             $table->text("datos");
             $table->integer("id_usuario");
+            $table->integer("id_empresa");
             $table->timestamps();
         });
     }

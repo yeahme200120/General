@@ -14,6 +14,7 @@ class Empresa extends Model
         'direccion_empresa',
         'telefono_empresa',
         'id_vigencia',
-        'estatus_empresa'
+        'estatus_empresa',
+        'id_tipo_negocio'
     ];
 }

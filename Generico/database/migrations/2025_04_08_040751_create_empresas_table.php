@@ -21,6 +21,7 @@ return new class extends Migration
             $table->string("telefono_empresa");
             $table->integer("id_vigencia");
             $table->integer("estatus_empresa");
+            $table->integer("id_tipo_negocio");
             $table->timestamps();
         });
     }

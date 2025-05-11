@@ -10,6 +10,7 @@ class Seguimiento extends Model
         'accion',
         'fecha',
         'datos',
-        'id_usuario'
+        'id_usuario',
+        'id_empresa'
     ];
 }

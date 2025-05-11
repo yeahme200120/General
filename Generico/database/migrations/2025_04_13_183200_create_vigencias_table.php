@@ -15,12 +15,9 @@ return new class extends Migration
             $table->id();
             $table->String("tipo_vigencia");
             $table->integer("id_empresa");
-            $table->integer("dias_restantes");
-            $table->date("fecha_inicio");
-            $table->date("fecha_fin");
             $table->integer("duracion_dias");
-            $table->dateTime("fecha_actualizacion");
-            $table->integer("autorizado_por");
+            $table->integer("registrado_por");
+            $table->dateTime("fin_vigencia");
             $table->integer("estatus");
             $table->timestamps();
         });
